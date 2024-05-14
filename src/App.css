@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.sub-con{
+  width: 800px;
+  height: 500px;
+  margin-top: 9%;
+  transform: scale(1.1);
+}
+
+.circle1{
+  background-color: purple;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  position: relative;
+  left: 9em;
+  top: 3em;
+}
+
+.circle2{
+  background-color: #c6c638;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  position: relative;
+  left: 28em;
+  bottom: 14em;
+}
+
+.card{
+  height: 250px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: white;
+  position: relative;
+  left: 12em;
+  bottom: 7em;
+  z-index: 1;
+  backdrop-filter: blur(15px);
+  border: 0.5px solid white;
+  background: #ffffff0d;
+  border-top: 1px solid #ffffff33;
+  border-left: 1px solid #ffffff33;
+  box-shadow: 5px 5px #00000033;
+
+}
+
+.visa{
+  background: none;
+  text-align: right;
+  margin-right: 9.2em;
   color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 1.5em;
+  transform: scale(2);
+
 }
 
-.App-link {
-  color: #61dafb;
+.icon{
+  background: none;
+  color: white;
+  position: relative;
+  top: 1.2em;
+  left: 5em;
+  transform: scale(1.8);
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.num{
+  background: none;
+  color: white;
+  margin-top: 9em;
+  text-align: center;
+  transform: scale(2);
+  font-size: small;
+  letter-spacing: 2px;
+  margin-right: 3em;
 }
+
+.text-con{
+  display: flex;
+  justify-content: center;
+  background: none;
+  color: white;
+  margin-top: 0.5em;
+  margin-left: 2em;
+}
+
+.text1{
+  color: white;
+  background: none;
+  font-size: 14px;
+}
+
+.text2{
+  color: white;
+  background: none;
+  
+}
+
+
